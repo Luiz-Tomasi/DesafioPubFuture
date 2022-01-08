@@ -8,7 +8,7 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
 }
-
+/*      Nav-start-css        */
 .container{
     position:relative;
     width: 100%;
@@ -46,7 +46,6 @@ body{
     
 }
 
-/* pq o a depois */
 .navigation ul li:hover a{
     color: #287bff;
     
@@ -92,4 +91,15 @@ body{
     padding-left: 5px;
     text-decoration: none;
     
+}
+/*      Nav-end-css        */
+
+.container_2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(48, 44, 44);
+    background-color: #287bff;
+    padding: 15px;
 }
