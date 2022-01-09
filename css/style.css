@@ -96,10 +96,23 @@ body{
 
 .container_2{
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: rgb(48, 44, 44);
     background-color: #287bff;
     padding: 15px;
+}
+
+.container_2 fieldset{
+    padding: 15px;
+}
+
+.submit{
+    width: 100%;
+}
+
+.inputR{
+    width: 20em;
+    height: 4vh;
 }
