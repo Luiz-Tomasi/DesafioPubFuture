@@ -44,7 +44,7 @@
                 <li>
                     <a href="">
                         <span class="fas fa-chart-pie"></span>
-                        <span class="title"> Dashboard</span>
+                        <span class="title"> Lista</span>
                     </a>
                 </li>
                 <li>
@@ -77,8 +77,7 @@
                 
             <br>
             <div class="inputBox">
-                <input type="number" name="valorR" id="valorR" class="inputR" required>
-                <label for="valorR">Valor</label>
+                <input type="number" name="valorR" id="valorR" class="inputR" placeholder="Valor" required>
             </div>
             <br>
             <div class="inputBox">
@@ -92,8 +91,7 @@
             </div>
             <br>
             <div class="inputBox">
-                <input type="number" name="contaR" id="contaR" class="inputR" required>
-                <label for="contaR">Conta</label>
+                <input type="number" name="contaR" id="contaR" class="inputR" placeholder="Conta" required>
             </div>
             <br>
             <h2>Tipo Receita</h2>
@@ -115,8 +113,7 @@
             </div>
             <br>
             <div class="inputBox">
-                <input type="text" name="descricaoR" id="descricaoR" class="inputR" maxlength="250" required>
-                <label for="descricaoR">Descrição</label>
+                <input type="text" name="descricaoR" id="descricaoR" class="inputR" maxlength="250" placeholder="Descrição" required>
             </div>
             <br>
             <input type="submit" name="submit" id="submit" class="submit">
@@ -130,8 +127,7 @@
                 <legend>Cadastro despesas</legend>
             <br>
             <div class="inputBox">
-                <input type="number" name="valorD" id="valorD" class="inputD" required>
-                <label for="valorD">Valor</label>
+                <input type="number" name="valorD" id="valorD" class="inputD" placeholder="Valor" required>
             </div>
             <br>
             <div class="inputBox">
@@ -145,8 +141,7 @@
             </div>
             <br>
             <div class="inputBox">
-                <input type="number" name="contaD" id="contaD" class="inputD" required>
-                <label for="contaD">Conta</label>
+                <input type="number" name="contaD" id="contaD" class="inputD" placeholder="Conta" required>
             </div>
             <br>
             <h2>Tipo Despesa</h2>
