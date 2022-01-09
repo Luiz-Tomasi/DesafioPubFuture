@@ -1,5 +1,5 @@
 <?php
-    function insert(){
+    function insertReceita(){
         include('conexao.php');
         include_once('index.php');
         $valorR = $_POST['valorR'];

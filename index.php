@@ -2,7 +2,7 @@
 	include("conexao.php");
     if(isset($_POST['valorR'])){
 		include_once('receita.php');
-		insert($_POST);
+		insertReceita($_POST);
 	};
 ?>
 <!DOCTYPE html>
