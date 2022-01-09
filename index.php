@@ -1,8 +1,9 @@
 <?php
 	include("conexao.php");
-	include("receita.php");
-	insert($_POST);
-	
+    if(isset($_POST['valorR'])){
+		include_once('receita.php');
+		insert($_POST);
+	};
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
