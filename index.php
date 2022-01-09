@@ -66,7 +66,7 @@
     </div>
     <!–- Navigation -–>
 
-    <div class="container_2">
+    <div class="cadastroReceita">
         <form class="index.php" method="post">
             <fieldset>
                 <legend>Cadastro receitas</legend>
@@ -115,7 +115,7 @@
                 <label for="descricaoR">Descrição</label>
             </div>
             <br>
-            <input type="submit" name="submit" id="submit">
+            <input type="submit" name="submit" id="submit" class="submit">
             </fieldset>
         </form>
     </div>
