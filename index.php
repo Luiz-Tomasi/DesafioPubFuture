@@ -4,6 +4,10 @@
 		include_once('receita.php');
 		insertReceita($_POST);
 	};
+    if(isset($_POST['valorD'])){
+		include_once('despesa.php');
+		insertDespesa($_POST);
+	};
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
