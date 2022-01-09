@@ -36,13 +36,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="index.php">
                         <span class="fas fa-chart-pie"></span>
                         <span class="title"> Cadastro</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="lista.php">
                         <span class="fas fa-chart-pie"></span>
                         <span class="title"> Lista</span>
                     </a>
