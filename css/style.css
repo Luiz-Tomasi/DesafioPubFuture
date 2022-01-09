@@ -93,7 +93,7 @@ body{
     
 }
 /*      Nav-end-css        */
-
+/*      CadastroReceita-start-css        */
 .cadastroReceita{
     position: absolute;
     left: 40%;
@@ -113,6 +113,30 @@ body{
 }
 
 .inputR{
+    width: 20em;
+    height: 4vh;
+}
+/*      CadastroReceita-end-css        */
+/*      CadastroDespesa-start-css        */
+.cadastroDespesa{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(48, 44, 44);
+    background-color: #287bff;
+    padding: 15px;
+}
+
+.cadastroDespesa fieldset{
+    padding: 15px;
+}
+
+.submit{
+    width: 100%;
+}
+
+.inputD{
     width: 20em;
     height: 4vh;
 }
