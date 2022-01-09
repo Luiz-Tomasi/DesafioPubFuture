@@ -120,5 +120,71 @@
         </form>
     </div>
 
+	<div class="cadastroDespesa">
+        <form class="index.php" method="post">
+            <fieldset>
+                <legend>Cadastro despesas</legend>
+            <br>
+            <div class="inputBox">
+                <input type="number" name="valorD" id="valorD" class="inputD" required>
+                <label for="valorD">Valor</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="date" name="dateRD" id="dateRD" class="inputD" required>
+                <label for="dateRD">Data de recebimento</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="date" name="dateRED" id="dateRED" class="inputD" required>
+                <label for="dateRED">Data de recebimento esperado</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="number" name="contaD" id="contaD" class="inputD" required>
+                <label for="contaD">Conta</label>
+            </div>
+            <br>
+            <h2>Tipo Despesa</h2>
+            <div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD1" value="alimentação" class="inputRadioD" required>
+                <label for="tipoD">Alimentação</label>
+            </div>
+            <div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD2" value="educação" class="inputRadioD" required>
+                <label for="tipoD">Educação</label>
+            </div>
+            <div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD3" value="lazer" class="inputRadioD" required>
+                <label for="tipoD">Lazer</label>
+            </div>
+			<div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD3" value="moradia" class="inputRadioD" required>
+                <label for="tipoD">Moradia</label>
+            </div>
+			<div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD3" value="roupa" class="inputRadioD" required>
+                <label for="tipoD">Roupa</label>
+            </div>
+			<div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD3" value="saúde" class="inputRadioD" required>
+                <label for="tipoD">Saúde</label>
+            </div>
+			<div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD3" value="transporte" class="inputRadioD" required>
+                <label for="tipoD">Transporte</label>
+            </div>
+            <div class="inputBox">
+                <input type="radio" name="tipoD" id="tipoD4" value="outros" class="inputRadioD" required>
+                <label for="tipoD">Outros</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit" class="submit">
+            </fieldset>
+        </form>
+    </div>
+
+
+
 </body>
 </html>
