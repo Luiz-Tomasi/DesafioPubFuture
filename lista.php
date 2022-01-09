@@ -55,16 +55,16 @@
     </div>
 <!–- Navigation -–>
 <div class="listar">
-    <button class="listarDespesa" href="listarDespesa.php">
+    <button onclick="location.href = 'listarDespesa.php';" class="listarDespesa">
         Listar Despesas
     </button>
-    <button class="listarReceita" href="listarReceita.php">
+    <button onclick="location.href = 'listarReceita.php';" class="listarReceita">
         Listar Receitas
     </button>
-    <button class="listarConta" href="listarConta.php">
+    <button onclick="location.href = 'listarConta.php';" class="listarConta">
         Listar Contas
     </button>
-
 </div>
+
 </body>
 </html>
