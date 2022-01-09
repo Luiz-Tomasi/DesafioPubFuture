@@ -7,6 +7,7 @@
 body{
     min-height: 100vh;
     overflow-x: hidden;
+    background-color: #f5f5f5;
 }
 /*      Nav-start-css        */
 .container{
@@ -99,13 +100,34 @@ body{
     left: 40%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 25em;
     color: rgb(48, 44, 44);
     background-color: #287bff;
     padding: 15px;
+    border-radius: 15px;
 }
 
 .cadastroReceita fieldset{
     padding: 15px;
+    border: 3px solid white;
+}
+
+legend{
+    border: 3px solid white;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+label{
+    font-size: 18px;
 }
 
 .submit{
@@ -122,14 +144,17 @@ body{
     position: absolute;
     left: 75%;
     top: 50%;
+    width: 25em;
     transform: translate(-50%, -50%);
     color: rgb(48, 44, 44);
     background-color: #287bff;
     padding: 15px;
+    border-radius: 15px;
 }
 
 .cadastroDespesa fieldset{
     padding: 15px;
+    border: 3px solid white;
 }
 
 .submit{
