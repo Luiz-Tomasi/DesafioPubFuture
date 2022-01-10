@@ -201,3 +201,23 @@ label{
     font-size: 16px;
     color: white;
 }
+/*      Lista-end-css        */
+/*      listarDespesa-start-css        */
+
+.ListarDespesa{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 500px;
+    background-color: #287bff;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    text-align: center;
+}
+.ListarDespesa td{
+    border-bottom: 3px solid white;
+}
+
+.far fa-edit{color: white;}
